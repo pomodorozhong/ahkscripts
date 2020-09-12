@@ -1,2 +1,2 @@
-﻿#Include scripts/uncategory.ahk
+﻿#Include scripts/uncategorized.ahk
 #Include scripts/text_expanders.ahk
