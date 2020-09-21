@@ -1,4 +1,4 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Ctrl + ALT + T to open CMD
+; Ctrl + ALT + T to open POWERSHELL
 ; Just like the Ubuntu terminal shortcut
-^!T::Run % "CMD"
+^!T::Run % "POWERSHELL"
