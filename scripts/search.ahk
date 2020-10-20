@@ -38,6 +38,6 @@ return
   Send ^c
   ClipWait, .5
   Run https://youglish.com/search/%Clipboard%
-  Run http://dict.youdao.com/w/eng/%Clipboard%
+  Run https://cdict.net/?q=%Clipboard%
   FileRead, Clipboard, *c %A_ScriptDir%\temp.clip
 return
