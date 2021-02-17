@@ -14,7 +14,7 @@ PasteThings(text)
 }
 
 ::ttime::
-text := A_YYYY . "/" . A_MM . "/" . A_DD . " " . A_Hour . ":" . A_Min
+text := A_YYYY . "-" . A_MM . "-" . A_DD . "-" . A_Hour . ":" . A_Min
 PasteThings(text)
 return
 
