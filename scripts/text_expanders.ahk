@@ -27,3 +27,8 @@ return
 text := "To-Do"
 PasteThings(text)
 return
+
+::ggmail::
+text := "pomodorozhong@gmail.com"
+PasteThings(text)
+return
