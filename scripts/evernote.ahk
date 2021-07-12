@@ -6,3 +6,12 @@
         Send {Delete}
         return
     }
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; A keboard shortcut remap for "Copy Internal Link" in Evernote 
+!c::
+    if WinActive("ahk_exe Evernote.exe")
+    {
+        Send ^!l
+        return
+    }
