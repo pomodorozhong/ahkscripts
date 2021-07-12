@@ -3,6 +3,6 @@
 ^d::
     if WinActive("ahk_exe Evernote.exe")
     {
-        Send ^{Backspace}
+        Send {Delete}
         return
     }
