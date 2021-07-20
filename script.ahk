@@ -2,4 +2,4 @@
 #Include scripts/text_expanders.ahk
 #Include scripts/search.ahk
 #Include scripts/evernote.ahk
-#Include scripts/chrome.ahk
+#Include scripts/browser.ahk
