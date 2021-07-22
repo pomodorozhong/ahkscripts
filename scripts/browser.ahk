@@ -8,5 +8,7 @@ $Tab::
         } else {
             Send {Tab}
         }
+    } else {
+        Send {Tab}
     }
 return
