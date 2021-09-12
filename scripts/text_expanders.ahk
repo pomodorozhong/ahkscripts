@@ -1,4 +1,4 @@
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+﻿;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Text Expanders
 ; Reference: https://www.autohotkey.com/docs/Hotstrings.htm
 
@@ -30,5 +30,17 @@ return
 
 ::ggmail::
     text := "pomodorozhong@gmail.com"
+    PasteThings(text)
+return
+
+; to make emoji work, this file must be save in "UTF8 with BOM".
+::pointdd::
+    text := "👇"
+    PasteThings(text)
+return
+
+; to make emoji work, this file must be save in "UTF8 with BOM".
+::pointuu::
+    text := "☝️"
     PasteThings(text)
 return
