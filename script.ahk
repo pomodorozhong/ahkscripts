@@ -4,3 +4,4 @@
 #Include scripts/evernote.ahk
 #Include scripts/browser.ahk
 #Include scripts/click_simulator.ahk
+#Include scripts/remap.ahk
